@@ -1,0 +1,47 @@
+{
+  "presentationText": [
+    {
+      "importance": "medium",
+      "text": [
+        {
+          "type": "normal",
+          "value": "Bonjour, je m'appelle Côme et je suis"
+        }
+      ]
+    },
+    {
+      "importance": "high",
+      "text": [
+        {
+          "type": "normal",
+          "value": "Développeur web fullstack"
+        }
+      ]
+    },
+    {
+      "importance": "low",
+      "text": [
+        {
+          "type": "normal",
+          "value": "Je suis à la recherche d'un emploi en "
+        },
+        {
+          "type": "strong",
+          "value": "CDI "
+        },
+        {
+          "type": "mini",
+          "value": "(temps plein) "
+        },
+        {
+          "type": "normal",
+          "value": "à Montpellier et alentours à partir de "
+        },
+        {
+          "type": "strong",
+          "value": "décembre 2023."
+        }
+      ]
+    }
+  ]
+}

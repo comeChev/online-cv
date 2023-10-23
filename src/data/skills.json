@@ -1,0 +1,55 @@
+{
+  "front": {
+    "title": "Front-end",
+    "description": "Création et intégration de sites web et applications mobiles responsive, accessibles et répondant aux normes W3C.",
+    "skills": [
+      { "label": "HTML5", "note": 4 },
+      { "label": "CSS3", "note": 4 },
+      { "label": "JavaScript", "note": 4 },
+      { "label": "JSON", "note": 4 },
+      { "label": "NextJS", "note": 4 },
+      { "label": "Boostrap", "note": 4 },
+      { "label": "Tailwind CSS", "note": 4 },
+      { "label": "SASS", "note": 3 }
+    ]
+  },
+  "back": {
+    "title": "Back-end",
+    "description": "Développement de sites web et applications, création et gestion de bases de données, programmation orientée objet et modèle 3 tiers, mise en ligne.",
+    "skills": [
+      { "label": "NodeJS", "note": 4 },
+      { "label": "MySQL", "note": 4 },
+      { "label": "API REST", "note": 4 },
+      { "label": "PostgreSQL", "note": 4 },
+      { "label": "NextJS", "note": 4 },
+      { "label": "SEO", "note": 3 },
+      { "label": "PHP7", "note": 3 },
+      { "label": "Symfony", "note": 3 },
+      { "label": "CRON", "note": 2 },
+      { "label": "Client SSH", "note": 2 },
+      { "label": "Connexion STP", "note": 2 },
+      { "label": "cURL", "note": 1 }
+    ]
+  },
+  "cms": {
+    "title": "CMS",
+    "description": "Création et édition de thèmes et plugins. Mon expérience est principalement portée sur WordPress.",
+    "skills": [
+      { "label": "WordPress", "note": 3 },
+      { "label": "Magento", "note": 1 },
+      { "label": "PrestaShop", "note": 1 }
+    ]
+  },
+  "design": {
+    "title": "Web Design",
+    "description": "Création de maquettes Figma et HTML, ainsi que de prototypes fonctionnels. Conception centrée utilisateur selon les règles d'UX lors de la création d'une interface utilisateur.",
+    "skills": [
+      { "label": "Figma", "note": 3 },
+      { "label": "Maquettage", "note": 3 },
+      { "label": "Prototypage", "note": 3 },
+      { "label": "Photoshop", "note": 3 },
+      { "label": "Abode XD", "note": 2 },
+      { "label": "InDesign", "note": 2 }
+    ]
+  }
+}

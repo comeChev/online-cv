@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@100&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .rounded-text {
+    shape-outside: margin-box;
+  }
+  .bg-gradient-blue {
+    @apply bg-gradient-to-b from-slate-800 to-sky-800 opacity-90;
+  }
+  .realization:hover .realization-overlay,
+  .realization:active .realization-overlay {
+    top: 0;
+    border: 0px;
+  }
+  .realization:tap .helper:hover .helper-overlay {
+    opacity: 1;
+  }
+
+  @keyframes opacityChange {
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+}
+:root {
+  font-family: Montserrat, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+}

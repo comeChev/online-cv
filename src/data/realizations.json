@@ -1,0 +1,123 @@
+{
+  "realizations": [
+    {
+      "title": "Garage Parrot",
+      "url": "https://garageparrot.vassco.fr",
+      "urlGithub": "https://github.com/comeChev/parrot_app",
+      "description": [
+        "Création d'un site pour un garage automobile",
+        "Utilisation de NextJS",
+        "Utilisation de TailwindCSS en tant que librairie CSS",
+        "Utilisation de PostgreSQL pour la base de données",
+        "Utilisation de Prisma pour la gestion de la base de données (ORM)",
+        "Maquettage et prototypage réalisé avec Figma",
+        "Création d'un site vitrine avec consultation de véhicules d'occasions",
+        "Création d'un panel administration",
+        "Hébergement sur Vercel",
+        "Projet de fin de formation"
+      ],
+      "tags": [
+        "NextJS",
+        "TailwindCSS",
+        "PostgreSQL",
+        "Prisma",
+        "Figma",
+        "Vercel"
+      ],
+      "image": "/realizations/parrot.png"
+    },
+    {
+      "title": "Arbr'O Grimpeur",
+      "url": "https://app-arbrogrimpeur.vercel.app",
+      "urlGithub": "https://github.com/comeChev/app-arbrogrimpeur",
+      "description": [
+        "Refonte du site Arbr'O Grimpeur",
+        "Utilisation de ReactJS",
+        "Utilisation de TailwindCSS en tant que librairie CSS",
+        "Utilisation de EmailJS pour l'envoi de mail",
+        "Hébergement sur Vercel",
+        "Projet personnel"
+      ],
+      "tags": ["ReactJS", "TailwindCSS", "EmailJS", "Vercel"],
+      "image": "/realizations/arbrogrimpeur.png"
+    },
+    {
+      "title": "IMDB Clone",
+      "url": "https://imdb.vassco.fr",
+      "urlGithub": "https://github.com/comeChev/imdb_clone",
+      "description": [
+        "Réalisation d'une copie du site IMDB",
+        "Utilisation de l'API de IMDB",
+        "Utilisation de NextJS",
+        "Utilisation de TailwindCSS en tant que librairie CSS",
+        "Gestion du state pour le dark mode",
+        "Hébergement sur Vercel",
+        "Projet personnel"
+      ],
+      "tags": ["NextJS", "TailwindCSS", "Vercel", "API"],
+      "image": "/realizations/imdb.png"
+    },
+    {
+      "title": "Google Clone",
+      "url": "https://google.vassco.fr/",
+      "urlGithub": "https://github.com/comeChev/google-clone",
+      "description": [
+        "Réalisation d'une copie du site de recherche Google",
+        "Utilisation de l'API de Google avec création d'un moteur de recherche personnalisé",
+        "Utilisation de NextJS",
+        "Utilisation de TailwindCSS en tant que librairie CSS",
+        "Gestion du state pour le dark mode",
+        "Hébergement sur Vercel",
+        "Projet personnel"
+      ],
+      "tags": ["NextJS", "TailwindCSS", "Vercel", "API"],
+      "image": "/realizations/google.png"
+    },
+    {
+      "title": "Ticket To Ride - Counter App",
+      "url": "https://ttr.vassco.fr",
+      "urlGithub": "https://github.com/comeChev/ttr_counterp",
+      "description": [
+        "Réalisation d'une application pour compter les points à la fin d'une partie de Ticket To Ride",
+        "Utilisation de NextJS",
+        "Utilisation de TailwindCSS en tant que librairie CSS",
+        "Données stockées sur le local storage du navigateur",
+        "Hébergement sur Vercel",
+        "Projet personnel"
+      ],
+      "tags": ["NextJS", "TailwindCSS", "Vercel"],
+      "image": "/realizations/ttr.png"
+    },
+    {
+      "title": "Le jeu du dé",
+      "url": "https://drg-game.netlify.app",
+      "urlGithub": "https://github.com/comeChev/DiceGameWithJavascript",
+      "description": [
+        "Réalisation d'une application de jeu de dé",
+        "Personnalisation des parties avec possibilité de changer le nombre de joueurs et le nombre de points à atteindre",
+        "Jouable à 2 joueurs contre une 'IA'",
+        "Utilisation de Javascript vanilla",
+        "Utilisation de Bootstrap en tant que librairie CSS",
+        "Hébergement sur Netlify",
+        "Deuxième projet réalisé dans le cadre de ma formation"
+      ],
+      "tags": ["Javascript", "HTML", "Bootstrap", "Netlify"],
+      "image": "/realizations/diceGame.png"
+    },
+    {
+      "title": "Hauteville 3S",
+      "url": "https://hauteville3s.netlify.app",
+      "urlGithub": "https://github.com/comeChev/Hauteville3S",
+      "description": [
+        "Réalisation d'un site associatif",
+        "Refonte du site de mon ancien employeur",
+        "Utilisation de HTML, CSS et Javascript vanilla",
+        "Utilisation de Bootstrap en tant que librairie CSS",
+        "Hébergement sur Netlify",
+        "Premier projet réalisé dans le cadre de ma formation"
+      ],
+      "tags": ["Javascript", "HTML", "CSS", "Bootstrap", "Netlify"],
+      "image": "/realizations/h3s.png"
+    }
+  ]
+}
