@@ -76,7 +76,8 @@ export default function Menu() {
             </li>
           ))}
         </ul>
-        <div className="mb-6">
+        {/* socials */}
+        <div className="mb-16 lg:mb-6">
           <div className="flex items-center justify-center mb-1 py-2 rounded-md">
             {infos.socials.map((item, index) => (
               <SocialsItem
@@ -113,14 +114,14 @@ export default function Menu() {
           </div>
         </div>
       </MenuSide>
-      <div className="w-full min-h-[20px] bg-slate-800 opacity-90 text-white text-2xl flex items-center justify-between p-2 fixed top-0 z-50">
+      <div className="w-full min-h-[40px] bg-slate-800 opacity-90 text-white text-2xl flex items-center justify-between p-2 fixed top-0 z-50">
         <p className="text-sm md:text-lg lg:text-xl font-coiny">
           Côme Chevallier - Développeur web
         </p>
         {open ? (
-          <FaXmark className="text-2xl cursor-pointer" onClick={handleOpen} />
+          <FaXmark className="text-4xl cursor-pointer" onClick={handleOpen} />
         ) : (
-          <FaBars className="text-2xl cursor-pointer" onClick={handleOpen} />
+          <FaBars className="text-4xl cursor-pointer" onClick={handleOpen} />
         )}
       </div>
     </header>
