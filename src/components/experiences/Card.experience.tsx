@@ -49,7 +49,7 @@ export default function CardExperience({
       <div className="flex flex-row flex-1 relative">
         {/* timeline */}
         <CardExperienceTimeline isExtreme={isExtreme} />
-        <div className="bg-slate-100 border border-slate-200 rounded-xl shadow-rl shadow-slate-400 min-h-[200px] flex-1 transition-all duration-[2s] ease-in-out mx-10 md:mx-4 lg:mx-auto my-4 px-10 py-6">
+        <div className="bg-slate-200 border border-slate-200 rounded-xl shadow-rl shadow-slate-400 min-h-[200px] flex-1 transition-all duration-[2s] ease-in-out mx-10 md:mx-4 lg:mx-auto my-4 px-10 py-6">
           {/* work title */}
           <div className="flex space-x-3 items-center text-xl lg:text-2xl">
             <IconWork className={`${cssWork}`} />

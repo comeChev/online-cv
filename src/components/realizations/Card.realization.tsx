@@ -23,6 +23,7 @@ export default function CardRealization({
           <img
             loading="lazy"
             src={realization.image}
+            alt={`site web ${realization.title}`}
             className="object-cover object-top w-full h-full rounded-md"
           />
           <div className="w-full h-full absolute bg-white  border-t border-gray-300 right-0 left-0 top-[85%] transition-all duration-700 ease-in-out realization-overlay px-4 pb-4 flex flex-col">

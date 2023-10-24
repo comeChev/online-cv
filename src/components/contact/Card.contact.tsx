@@ -8,14 +8,14 @@ export default function CardContact() {
     <div className="flex flex-col lg:flex-row mt-10 space-y-4 lg:space-y-0">
       <div className="flex flex-1 flex-col md:flex-row space-y-4 md:space-y-0 flex-grow">
         <CardContactItem
-          label="Téléphone"
+          label="appelez-moi"
           value={infos.internationalPhone}
           Icon={FaMobileAlt}
           type="phone"
           color="emerald"
         />
         <CardContactItem
-          label="Mail"
+          label="envoyer moi un mail"
           value={infos.mail}
           Icon={FaEnvelope}
           type="mail"
