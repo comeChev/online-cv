@@ -20,7 +20,7 @@ export default function SectionMain() {
     >
       <div className="absolute top-0 h-full w-full">
         <img
-          src="/public/bg.jpg"
+          src="/bg.jpg"
           className="h-full w-full object-cover"
           loading="lazy"
         />
