@@ -1,4 +1,3 @@
-import background from "/src/assets/bg.jpg";
 import presentation from "../../data/presentation.json";
 import { MainTextHigh, MainTextMedium, MainTextSm } from "./Card.main.text";
 import { CardMainDownload } from "./Card.main.button";
@@ -21,7 +20,7 @@ export default function SectionMain() {
     >
       <div className="absolute top-0 h-full w-full">
         <img
-          src={background}
+          src="/public/bg.jpg"
           className="h-full w-full object-cover"
           loading="lazy"
         />
