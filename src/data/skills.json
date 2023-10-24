@@ -1,7 +1,7 @@
 {
   "front": {
     "title": "Front-end",
-    "description": "Création et intégration de sites web et applications mobiles responsive, accessibles et répondant aux normes W3C.",
+    "description": "Création et intégration de sites web et applications mobiles responsives, accessibles et répondant aux normes W3C.",
     "skills": [
       { "label": "HTML5", "note": 4 },
       { "label": "CSS3", "note": 4 },
