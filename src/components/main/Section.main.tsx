@@ -20,7 +20,11 @@ export default function SectionMain() {
       ref={containerRef as React.RefObject<HTMLDivElement>}
     >
       <div className="absolute top-0 h-full w-full">
-        <img src={background} className="h-full w-full object-cover" />
+        <img
+          src={background}
+          className="h-full w-full object-cover"
+          loading="lazy"
+        />
         <div className=" bg-gray-800 bg-opacity-30 absolute top-0 z-10 w-full h-full font-fira font-semibold text-white">
           <div className=" container px-4 pt-2.5 pb-4 lg:py-10 flex flex-col items-start justify-end h-full mx-auto">
             {presentation.presentationText.map((item, index) =>

@@ -21,6 +21,7 @@ export default function CardRealization({
       <div className="w-full h-full bg-gray-600 rounded-md realization shadow-rl shadow-gray-400">
         <div className=" w-full h-full relative overflow-hidden rounded-md">
           <img
+            loading="lazy"
             src={realization.image}
             className="object-cover object-top w-full h-full rounded-md"
           />
