@@ -3,6 +3,7 @@ import { MainTextHigh, MainTextMedium, MainTextSm } from "./Card.main.text";
 import { CardMainDownload } from "./Card.main.button";
 import ArrowBack from "../ui/Arrow.back";
 import useElementOnScreen from "../../hooks/useElements";
+import bg from "../../assets/bg-min.webp";
 
 export default function SectionMain() {
   const options = {
@@ -20,7 +21,7 @@ export default function SectionMain() {
     >
       <div className="absolute top-0 h-full w-full">
         <img
-          src="/bg.jpg"
+          src={bg}
           className="h-full w-full object-cover"
           loading="lazy"
           alt="background image"
