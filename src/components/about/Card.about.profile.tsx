@@ -1,5 +1,5 @@
-import profilePic from "../../assets/profilePic.png";
-import portraitPic from "../../assets/portraitPic.jpeg";
+import profilePic from "../../assets/profilePic.webp";
+import portraitPic from "../../assets/portraitPic.webp";
 
 export default function CardAboutProfile({ css = "" }: { css?: string }) {
   return (
