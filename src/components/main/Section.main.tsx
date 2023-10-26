@@ -23,7 +23,6 @@ export default function SectionMain() {
         <img
           src={bg}
           className="h-full w-full object-cover"
-          loading="lazy"
           alt="background image"
         />
         <div className=" bg-gray-800 bg-opacity-30 absolute top-0 z-10 w-full h-full font-fira font-semibold text-white">
