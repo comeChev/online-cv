@@ -7,7 +7,7 @@ export function CardMainDownload() {
     <a
       className="hidden md:flex lg:items-center border-2 border-sky-300 rounded-lg px-4 py-2 mt-4 hover:bg-sky-300 hover:scale-110 hover:text-gray-800 hover:border-gray-800 transition duration-500 ease-in-out"
       type="button"
-      href="../src/assets/CV_chevallier.pdf"
+      href="/CV_chevallier.pdf"
       download={true}
       target="_blank"
     >

@@ -26,7 +26,7 @@ export default function Footer() {
           />
         ))}
         <SocialsItem
-          url={"/src/assets/CV_chevallier.pdf"}
+          url={"/CV_chevallier.pdf"}
           download={true}
           label="Télécharger mon CV"
           Icon={FaFilePdf}
